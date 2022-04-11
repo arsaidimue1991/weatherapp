@@ -11,5 +11,14 @@
     <string name="feel_like">Feel Like</string>
     <string name="vision">vision</string>
     <string name="login_information">Login Information:</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register_here">Register Here!</string>
+    <string name="registerhere">Register Here:</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login_here">Login Here!</string>
 
 </resources>

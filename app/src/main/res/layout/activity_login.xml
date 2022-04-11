@@ -21,21 +21,23 @@
         android:id="@+id/loginEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
+        android:hint="@string/email"
         android:layout_marginBottom="20dp"
         android:layout_below="@id/loginText"
 
-        android:autofillHints="" />
+        android:autofillHints=""
+        android:inputType="textEmailSubject" />
 
     <EditText
         android:id="@+id/loginPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="@string/password"
         android:layout_marginBottom="20dp"
         android:layout_below="@id/loginEmail"
 
-        />
+        android:autofillHints=""
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/loginButton"
@@ -43,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/loginPassword"
         android:layout_marginBottom="20dp"
-        android:text="Login"
+        android:text="@string/login"
         android:backgroundTint="#00FFFF"
 
         />
@@ -53,7 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/loginButton"
-        android:text="Register Here!"
+        android:text="@string/register_here"
         android:layout_marginBottom="20dp"
         android:textAlignment="center"
 

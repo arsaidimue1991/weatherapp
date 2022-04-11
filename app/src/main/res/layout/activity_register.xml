@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register"
-    android:layout_margin="10dp"
-    >
+    android:layout_margin="10dp">
 
     <TextView
 
         android:id="@+id/registerText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register Here: "
-        android:textSize="20dp"
+        android:text="@string/registerhere"
+        android:textSize="20sp"
         android:layout_marginBottom="20dp"
 
         />
@@ -23,28 +21,30 @@
         android:id="@+id/registerEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
+        android:hint="@string/email"
         android:layout_marginBottom="20dp"
         android:layout_below="@id/registerText"
 
-        />
+        android:autofillHints=""
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/registerPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="@string/password"
         android:layout_marginBottom="20dp"
         android:layout_below="@id/registerEmail"
 
-        />
+        android:autofillHints=""
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/registerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/registerPassword"
-        android:text="Register"
+        android:text="@string/register"
         android:layout_marginBottom="20dp"
 
         />
@@ -54,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/registerButton"
-        android:text="Login Here!"
+        android:text="@string/login_here"
         android:layout_marginBottom="20dp"
         android:textAlignment="center"
 

@@ -1,6 +1,7 @@
 package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -162,8 +163,6 @@ public class MainActivity extends AppCompatActivity {
 
                 }
 
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -173,6 +172,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    @SuppressLint("SetTextI18n")
     public void loadWeather(View view) {
 
         editText.setVisibility(View.INVISIBLE);
