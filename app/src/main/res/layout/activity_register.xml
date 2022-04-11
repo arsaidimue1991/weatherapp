@@ -21,33 +21,35 @@
         android:id="@+id/registerEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/email"
-        android:layout_marginBottom="20dp"
         android:layout_below="@id/registerText"
-
+        android:layout_marginBottom="20dp"
         android:autofillHints=""
-        android:inputType="textEmailAddress" />
+
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/registerPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/password"
-        android:layout_marginBottom="20dp"
         android:layout_below="@id/registerEmail"
-
+        android:layout_marginBottom="20dp"
         android:autofillHints=""
-        android:inputType="textPassword" />
+
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/registerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/registerPassword"
-        android:text="@string/register"
         android:layout_marginBottom="20dp"
+        android:contentDescription="@string/_3"
 
-        />
+        android:text="@string/string_register" />
 
     <TextView
         android:id="@+id/loginText"

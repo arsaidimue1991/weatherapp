@@ -200,7 +200,7 @@
         android:layout_marginEnd="135dp"
         android:layout_marginBottom="108dp"
         android:backgroundTint="#00FFFF"
-        android:text="Logout"
+        android:text="@string/logout"
         />
 
 </RelativeLayout>
