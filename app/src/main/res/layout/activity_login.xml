@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login"
-    android:layout_margin="10dp"
-    >
+    android:layout_margin="10dp">
 
     <TextView
 
         android:id="@+id/loginText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login Information:"
-        android:textSize="20dp"
         android:layout_marginBottom="20dp"
+        android:text="@string/login_information"
+        android:textSize="20sp"
 
         />
 
@@ -27,7 +25,7 @@
         android:layout_marginBottom="20dp"
         android:layout_below="@id/loginText"
 
-        />
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/loginPassword"
@@ -44,8 +42,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/loginPassword"
-        android:text="Login"
         android:layout_marginBottom="20dp"
+        android:text="Login"
+        android:backgroundTint="#00FFFF"
 
         />
 

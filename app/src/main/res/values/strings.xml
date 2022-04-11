@@ -10,5 +10,6 @@
     <string name="humidity">Humidity</string>
     <string name="feel_like">Feel Like</string>
     <string name="vision">vision</string>
+    <string name="login_information">Login Information:</string>
 
 </resources>
